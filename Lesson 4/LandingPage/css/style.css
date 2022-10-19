@@ -9,6 +9,9 @@ img{
 }
 
 .navigation__text{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -43,9 +46,65 @@ img{
 }
 
 .about__title{
+    background: #f6f6f6;
+    height: 500px;
+    font-family: 'Arial';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 39px;
+    text-align: center;
+    color: #070707;
+    margin-bottom: 47px;
+    
+}
 
-    background: #e5e5e5;
-      
+.about__text{
+    font-family: 'Arial';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 150px;
+    color: #070707;
+
+}
+
+.skills{
+    height: 500px;
+    font-family: 'Arial';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 39px;
+    text-align: center;
+    color: #070707;
+    margin-bottom: 47px;
+}
+
+.skills__text{
+    width: 250px;
+    height: 24px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 250px;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #070707; 
+}
+
+.skills__img{
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 110px;
+    justify-content: space-around;
+    flex-direction: row;
+    
+
 }
 
 .container{
@@ -97,6 +156,18 @@ img{
     text-align: center;
     margin-top: 70px;
 }
+
+.button{
+ background-color: rgb(0, 0, 0);
+ width: 150px;
+ height: 60px;
+ border-radius: 60px;
+}
+
+.button__text{
+    color: #e5e5e5;
+}
+
 .contacts__text{
     font-family: 'Open Sans';
     font-style: normal;
@@ -105,15 +176,13 @@ img{
     line-height: 25px;
     text-align: center;
     color: #070707;
-    margin-bottom: 50px;  
+    margin-bottom: 50px;
+    margin-top: 40px;  
 }
 .img__contacts{
+    display: flex ;
+    justify-content: space-between;
+    width: 400px;
     height: 40px;
-    display: flex;
-    align-items: center;
-    width: 150px;
-    height: 40.61px;
-    left: 540.83px;
-    top: 4495.62px;
-
+    margin-top: 40px;
 }

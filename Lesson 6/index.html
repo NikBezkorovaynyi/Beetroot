@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="http://flukeout.github.io/favicon.png">
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <style>
+    
+        
+        
+        .header{
+            text-align: center;          
+            width: 793px;
+            height: 82px;
+            margin: auto;
+            color:#FF8984;
+            background: #4A4F56;
+        }
+
+        .tab{
+             
+            width: 793px;
+            height: 507px;
+            left: 0px;
+            top: 20px;
+            margin: auto;
+            background: #3B3F45;
+}
+
+       
+        .tab__item {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 21px;
+            cursor: pointer;
+            color: #FFFFFF;
+            background: #88839E; 
+            width: 534px;
+            height: 45px;
+            left: 129px;
+            top: 102px;
+            margin-left: 130px;
+            
+        }
+        .tab__item-check:checked+span {
+            width: 534px;
+            height: 45px;
+            color: #9B96AC;
+            background: #7A7593;
+            text-decoration: line-through;
+            
+        }
+
+        .tab__item:hover{
+            width: 534px;
+            height: 45px;
+            left: 129px;
+            top: 237px;
+            border-top: 3px solid #FFFFFF;
+            border-bottom: 3px solid #FFFFFF;
+            background: #625E77;
+        }
+        
+        .button{
+            width: 534px;
+            height: 45px;
+            left: 129px;
+            top: 417px;
+            margin-top: 40px;
+            margin-left: 130px;
+            background: #4A4F56;
+            color: #FF8984;
+        }
+        .tab__item:nth-child(2n){
+            width: 534px;
+            height: 45px;
+            left: 129px;
+            top: 147px;
+            background: #7A7593;
+        }
+
+       
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>CSS Dinner Shopping List</h1>
+        <p>Let’s go to the mall!</p>
+    </header>
+    <div class="tab">
+        <div class="tab__item">
+            <input class="tab__item-check"  type="checkbox"> 
+            <span>A lot of pickles
+        </div>
+        <div class="tab__item">
+            <input class="tab__item-check"  type="checkbox"> 
+            <span>10 apples (for more CSS manipulations)</span>
+        </div>
+        <div class="tab__item">
+            <input class="tab__item-check"  type="checkbox"> 
+            <span>20 oranges (because they are awesome)</span>
+        </div>
+        <div class="tab__item">
+            <input class="tab__item-check"  type="checkbox"> 
+            <span>13 plates (hm... they always dissapear)</span>
+        </div>
+        <div class="tab__item">
+            <input class="tab__item-check"  type="checkbox"> 
+            <span>15 bentos</span>
+        </div>
+        <div class="tab__item">
+            <input class="tab__item-check"  type="checkbox"> 
+            <span>1 bottle of Sake (for my friends)</span>
+        </div>
+        <button class="button">Bon appetit :)</button>
+        
+    </div>
+</body>
+</html>

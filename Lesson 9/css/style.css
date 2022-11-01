@@ -178,7 +178,8 @@ background: #F6F6F6;
     top: 430px;
 }
 
-.team__item{
+
+.cart__items{
     width: 270px;
     height: 333px;
     flex: none;
@@ -188,55 +189,152 @@ background: #F6F6F6;
 }
 
 
-.hover__item{
+
+/* 111 */
+.cart__item{
     width: 270px;
     height: 270px;
     left: 0px;
     top: 0px;
-    background: #0da2c7;
+    background:url(../img/aboutus/psp.jpg) center center;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 5px;
-   
-  
+    gap: 5px; 
 }
 
-.hover__social{
+
+.cart__item:hover{
+   background: #0da2c7;
+}
+
+.cart__item:hover .cart__social{
+    visibility: visible;
+}
+
+.cart__social{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
     gap: 4px;
-    width: 134px;
-    height: 42px;
-    left: calc(50% - 134px/2 - 450px);
-    top: calc(50% - 42px/2 - 31.5px);
+    visibility: hidden;
     
 }
 
-.hover__icon{
+
+
+.cart__icon{
     color:#FFFFFF;
     background-color:#18B5DC;
     
 }
 
-.hover__icon:hover{
+.cart__icon:hover{
     color:#18B5DC;
     background-color: #FFFFFF;
     cursor: pointer;
+   
+    
+}
+/* 111 */
+
+/* 222 */
+.cart__item-sec{
+    width: 270px;
+    height: 270px;
+    left: 0px;
+    top: 0px;
+    background:url(../img/aboutus/photo.jpg);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px; 
 }
 
-.team__text{
+
+.cart__item-sec:hover{
+   background: #0da2c7;
+}
+
+.cart__social-sec{
+    display: flex;
+    gap: 4px;
+    visibility: hidden;
+}
+
+.cart__item-sec:hover .cart__social-sec{
+    visibility: visible;
+}
+/* 222 */
+
+
+/* 333 */
+.cart__item-thr{
+    width: 270px;
+    height: 270px;
+    left: 0px;
+    top: 0px;
+    background:url(../img/aboutus/elena.jpg);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px; 
+}
+
+
+.cart__item-thr:hover{
+   background: #0da2c7;
+}
+
+.cart__social-thr{
+    display: flex;
+    gap: 4px;
+    visibility: hidden;
+}
+
+.cart__item-thr:hover .cart__social-thr{
+    visibility: visible;
+}
+/* 333 */
+
+/* 444 */
+.cart__item-fr{
+    width: 270px;
+    height: 270px;
+    left: 0px;
+    top: 0px;
+    background:url(../img/aboutus/lily.jpg);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px; 
+}
+
+
+.cart__item-fr:hover{
+   background: #0da2c7;
+}
+
+.cart__social-fr{
+    display: flex;
+    gap: 4px;
+    visibility: hidden;
+}
+
+.cart__item-fr:hover .cart__social-fr{
+    visibility: visible;
+}
+/* 444 */
+.cart__text{
     width: 170px;
     height: 43px;
     padding: 5px;
     left: 0px;
     top: 290px;
 }
-.team__head{
+.cart__head{
     font-family: 'Lato';
     font-style: normal;
     font-weight: 700;
@@ -244,7 +342,7 @@ background: #F6F6F6;
     line-height: 22px;
     color: #282528; 
 }
-.team__text{
+.cart__texts{
     font-family: 'Lato';
     font-style: normal;
     font-weight: 300;
